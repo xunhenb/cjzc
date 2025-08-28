@@ -1,0 +1,933 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+      <meta charset="gbk">
+    <meta name="applicable-device" content="mobile">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="robots" content="all">
+    <meta name="Description" content="《绝地求生：刺激战场》虚幻4引擎,次世代完美画质,重现端游视听感受;8000M*8000M实景地图,全面自由施展战术;百人竞技,真实射击手感;好友一键组队,语音开黑;给您带来一场刺激的竞技体验">
+    <meta name="Keywords" content="绝地求生,绝地求生刺激战场,绝地求生手游,刺激战场,绝地求生手游下载,绝地求生刺激战场下载,绝地求生国服,吃鸡手游,刺激战场下载,绝地求生 刺激战场,绝地求生下载,掘地求生刺激战场,腾讯吃鸡手游,绝地求生大逃杀,腾讯绝地求生手游"
+/>
+    <title>正版战斗特训手游《绝地求生：刺激战场》刺激开测，立即加入！-绝地求生刺激战场官网网站-腾讯游戏 </title>
+    <!-- 设计：cp | 重构：cp | 创建： -->
+    <script>
+        (function (win) { 
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+                var cliWidth = html.clientWidth;
+                html.style.fontSize = 100 * (cliWidth / 750) + 'px';
+            }
+            win.addEventListener('resize', setFont, false);
+            setFont();
+        })(window);
+    </script>
+    <link rel="stylesheet" href="//game.gtimg.cn/images/cjm/m/m201801/css/swiper.min.css">
+    <link rel="stylesheet" href="//game.gtimg.cn/images/cjm/m/m201801/css/comm.css?v=2">
+    <link rel="stylesheet" href="//game.gtimg.cn/images/cjm/m/m201801/css/main.css?v=2"> 
+    <style>
+        #pop_box {display: none;position: fixed;width: 100%;height: 4.5rem;top: 0;left: 0;background: rgba(0, 0, 0, .7);z-index: 20;top: 50%;margin-top: -2.2rem}
+        #container {position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;width: 100%;height: 4.50rem;border: .03rem solid #ffc200;border-left: none;border-right: none}
+        #pop_box .close {text-decoration: none;position: absolute;right: 0;top: -0.7rem;width: .70rem;height: .70rem;background: #ffc200;}
+        #pop_box .fork {position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;width: .40rem;height: .40rem;}
+        @media all and (orientation: portrait) {
+            /* #container {width: 6rem;height: 4rem;} 
+            #pop_box .close {margin: -2.04rem -3.73rem 0 0;} */
+        }
+        .marsk{background: rgba(0, 0, 0, 0.8);width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: 50;display: none}
+       .pailiantu{ width: 100%; height: 100%; background:rgba(0,0,0,.75); position: fixed; z-index:999; top: 0; left: 0; display: none;  }    
+      .pailiantu_info{ width: 7.5rem; height: 7rem; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; overflow: hidden; animation: facephoto 2s linear 0s; -moz-animation: facephoto 2s linear 0s; -webkit-animation: facephoto 2s linear 0s; -o-animation: facephoto 2s linear 0s;}
+      .pailiantu_info img{ width: 100%; }
+      .pailiantu_infoo{ width: 100%; height: 100%; position: relative;}
+      .pailiantu_pic{ width: 7.5rem; height: auto; position: absolute; left: 0; top: 0; }
+      .pailiantu_close{color: #fff; position: absolute; top:0; right:0; font-size: .8rem; display: block; z-index: 999;}
+
+      @keyframes facephoto
+        {
+        0%   {transform: scale(0);}
+        25%  {transform: scale(0.4);}
+        50%  {transform: scale(0.8);}
+        75%  {transform: scale(1.2);}
+        100% {transform: scale(1);}
+        }
+    @-moz-keyframes facephoto /* Firefox */
+        {
+        0%   {transform: scale(0);}
+        25%  {transform: scale(0.4);}
+        50%  {transform: scale(0.8);}
+        75%  {transform: scale(1.2);}
+        100% {transform: scale(1);}
+        }
+
+    @-webkit-keyframes facephoto /* Safari 和 Chrome */
+        {
+        0%   {transform: scale(0);}
+        25%  {transform: scale(0.4);}
+        50%  {transform: scale(0.8);}
+        75%  {transform: scale(1.2);}
+        100% {transform: scale(1);}
+        }
+
+    @-o-keyframes facephoto /* Opera */
+        {
+        0%   {transform: scale(0);}
+        25%  {transform: scale(0.4);}
+        50%  {transform: scale(0.8);}
+        75%  {transform: scale(1.2);}
+        100% {transform: scale(1);}
+        }
+        .it-come {
+			width: 100%;
+			height: 100%;
+			top: 0;
+			transition: height .1s;
+			background: rgba(0, 0, 0, .6);
+			position: fixed;
+			z-index: 10;
+		}
+
+		.it-come.active {
+			background: transparent;
+			height: 0;
+			transition: height 2s;
+		}
+
+		.it-box {
+			width: 5.51rem;
+			height: 9.252rem;
+			position: absolute;
+			right: 50%;
+			bottom: 50%;
+			opacity: 1;
+			transform: scale(1);
+			transition: all .5s;
+			background: url('//game.gtimg.cn/images/cjm/m/m201801/it-come-box.png')no-repeat 0 0/100%;
+			margin: 0 -2.63rem -4.705rem 0 ;
+		}
+
+		.it-come.active .it-box {
+			bottom: 0%;
+			right: 0%;
+            opacity: 0;
+			transform: scale(0);
+		}
+		.it-box img {
+			position: absolute;
+			width: 5.04rem;
+			height: 8.95rem;
+			bottom: 50%;
+			right: 50%;
+			opacity: 1;
+			margin:   0 -2.52rem -4.425rem 0 ;
+		}
+
+		
+
+		.icon-close {
+			width: .52rem;
+			height: .56rem;
+			position: absolute;
+			left: 98%;
+			top: 3%;
+			cursor: pointer;
+			background: url('//game.gtimg.cn/images/cjm/m/m201801/it-come-close.png')no-repeat 0 0/100%;
+			margin: -.34rem 0 0 -.20rem;
+		}
+
+		.it-come.active .icon-close {
+			display: none;
+		}
+        .slide-munu .munu-down img:first-of-type{
+            width: 1.46rem;
+			height: 1.44rem;
+        }
+.slide-munu .munu-down{display:none!important}		
+.slide-munu .munu-down .down-2 {
+			width: 1.17rem;
+			height: .64rem;
+            margin-top: -.2rem;
+			/* display: block; */
+		}
+        .slide-munu{width: 1.46rem;position: fixed;top: 10.68rem;right: 0rem;z-index: 99;}
+		/* .slide-munu .munu-down {
+			opacity: 0;
+			transition: all 1s .2s;
+			transform: translateY(-2rem);
+		}
+
+		.slide-munu .active.munu-down {
+			opacity: 1;
+			transform: translateY(0rem);
+		} */
+    </style>
+    <!-- <script src="//game.gtimg.cn/images/cjm/m/m201801/js/fastclick.js"></script>
+    <script>
+    if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function () {
+                FastClick.attach(document.body);
+            }, false);
+    }  
+    </script> -->
+</head>
+
+<body> 
+    <header class="common-header" id="top">
+    <div class="cover-content">
+        <a href="/m/m201801/" class="web-logo" ontouchend="PTTSendClick('banner','topLogo','logo')">
+            <dl class="p-common">
+                <dt><span>绝地求生&nbsp;:&nbsp;刺激战场</span></dt>
+                <dd>正版战斗特训手游</dd>
+            </dl>
+        </a>
+        <a href="/d/index.shtml" class="btn-down mct_download_btn" ontouchend="PTTSendClick('banner','down','下载')"
+           title="下载">立即下载</a>
+        <div id="btnNavSlide" class="btn_nav_slide"><i class="draw" title="导航开关"></i></div>
+    </div>
+</header>
+<nav id="commonNav" class="common_nav">
+    <div class="cover_content">
+        <ul>
+            <li><a ontouchend="PTTSendClick('nav','link1','导航1')" href="/m/m201801/">官网首页</a></li>
+            <li><a ontouchend="PTTSendClick('nav','link2','导航2')" href="/match/m/">赛事中心</a></li>
+            <li><a ontouchend="PTTSendClick('nav','link3','导航3')" href="/m/m201801/video_list.shtml">视频中心</a></li>
+            <li><a ontouchend="PTTSendClick('nav','link4','导航4')" href="/cp/a20180312live/index.html">直播中心</a></li>
+            <li><a ontouchend="PTTSendClick('nav','link5','导航5')" href="/m/m201801/raiders_list.shtml">攻略中心</a></li>
+            <li><a href="//pg.qq.com/m/m201801/ziliao_list.shtml" ontouchend="PTTSendClick('nav','link61','导航61')">武器配件</a></li>
+            <li><a href="//pg.qq.com/zlkdatasys/a20180420verlistm/ztsy.shtml?" ontouchend="PTTSendClick('nav','link62','导航62')">版本更新</a></li>
+            <li><a ontouchend="PTTSendClick('nav','linktyf','体验服')" href="//pg.qq.com/cp/a20180524tyfm/index.shtml">体验专区</a></li>
+            <li><a ontouchend="PTTSendClick('nav','link7','导航7')" href="#code">社区互动</a></li>
+        </ul>
+    </div>
+</nav>
+    <div class="wrap index">
+        <nav class="top_nav">
+        <ul class="clearfix">
+            <li><a href="/m/m201801/" ontouchend="PTTSendClick('top-nav','nav1','首页')"><span></span>首页</a></li>
+            <li><a href="/m/m201801/strategy.shtml" ontouchend="PTTSendClick('top-nav','nav2','攻略')"><span></span>攻略</a></li>
+            <li><a href="/m/m201801/colleague.shtml" ontouchend="PTTSendClick('top-nav','nav3','同人')"><span></span>同人</a></li>
+           <li><a href="/m/m201801/match.shtml" ontouchend="PTTSendClick('top-nav','nav4','赛事')"><span></span>赛事</a></li>
+        </ul>
+    </nav>
+  
+        <section class="kv">
+<!--             <i class="logo"></i>
+            <a class="video_btn sp" href="javascript:;" data-vid="e0709j00nio" ontouchend="PTTSendClick('btn','kvvideo','播放视频')">播放视频</a> -->
+            <a href="//pg.qq.com/cp/a20180828planm/" ontouchend="PTTSendClick('btn','btn','查看详情')" class="xiangqing_index"></a>
+        </section>
+        <!-- 新闻资讯 start-->
+        <section class="news">
+            <div class="swiper-container swiper-container-news">
+                <div class="swiper-wrapper" id="swiperIdxlbBox">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <h2>
+                <i class="sp"></i>新闻资讯
+                <span>NEWS</span>
+                <a href="/m/m201801/news_list.shtml" class="more_btn" ontouchend="PTTSendClick('btn','morenews','更多新闻')">更多
+                    <span class="sp"></span>
+                </a>
+            </h2>
+            <div class="tab" id="tab_news">
+                <div class="hd">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="javascript:void(0);">最新</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">新闻</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">公告</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">活动</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <div class="tab-panel">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-panel">
+                        <ul>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-panel">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-panel">
+                        <ul>
+                               <li>
+        <a class="clearfix" href="/gicp/news/111/6541843.html" ontouchend="sendPageData('news','link0','首页新闻链接','6541843','news','/gicp/news/111/6541843.html');">
+            <span class="fl" style="display:none">【】</span>
+            <span class="fr">11-24</span> 
+            【策划面对面】严厉打击外挂，维护游戏环境！
+        </a> 
+    </li>
+    <li>
+        <a class="clearfix" href="/gicp/news/111/6535035.html" ontouchend="sendPageData('news','link1','首页新闻链接','6535035','news','/gicp/news/111/6535035.html');">
+            <span class="fl" style="display:none">【】</span>
+            <span class="fr">11-16</span> 
+            手游宝送你刺激战场锦鲤，最高666Q币等你抢
+        </a> 
+    </li>
+    <li>
+        <a class="clearfix" href="/gicp/news/111/6532292.html" ontouchend="sendPageData('news','link2','首页新闻链接','6532292','news','/gicp/news/111/6532292.html');">
+            <span class="fl" style="display:none">【】</span>
+            <span class="fr">11-10</span> 
+            畅玩刺激新版本 Q神帮你清空购物车
+        </a> 
+    </li>
+    <li>
+        <a class="clearfix" href="/gicp/news/111/6522880.html" ontouchend="sendPageData('news','link3','首页新闻链接','6522880','news','/gicp/news/111/6522880.html');">
+            <span class="fl" style="display:none">【】</span>
+            <span class="fr">10-26</span> 
+            《绝地求生 刺激战场》体验服第三期招募开启
+        </a> 
+    </li>
+    <li>
+        <a class="clearfix" href="/gicp/news/111/6522870.html" ontouchend="sendPageData('news','link4','首页新闻链接','6522870','news','/gicp/news/111/6522870.html');">
+            <span class="fl" style="display:none">【】</span>
+            <span class="fr">10-26</span> 
+            腾讯游戏TGA STAR解说招募启动，打造新生代明星解说
+        </a> 
+    </li>
+  
+
+  
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!-- 新闻中心 end--> 
+        <!-- 游戏资料 start-->
+        <section class="data">
+            <ul class="clearfix">
+                <li>
+                    <a href="/m/m201801/fresh.shtml" ontouchend="PTTSendClick('btn','data1','新手引导');">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/tag1.png" alt="新手引导">
+                    </a>
+                </li>
+                <li>
+                    <a href="//bang.qq.com/app/pg/cjzc?cGameId=20004&cChannelId=501" ontouchend="PTTSendClick('btn','zhushou','助手APP');">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/tag2.png" alt="活动中心">
+                    </a>
+                </li>
+                <li>
+                    <a href="//pg.qq.com/act/a20171218cdkey/index_m.html" ontouchend="PTTSendClick('btn','data3','CDKEY');">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/tag3.png" alt="CDKEY">
+                    </a>
+                </li>
+                <li>
+                    <a href="//kf.qq.com/touch/product/JDQSSY_mp.html" ontouchend="PTTSendClick('btn','data4','客服专区');">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/tag4.png" alt="客服专区">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- 游戏资料 end-->
+
+        <!--视频中心 start -->
+        <section class="video">
+            <h2>
+                <i class="sp"></i>视频中心
+                <span>VIDEO</span>
+                <a href="/m/m201801/video_list.shtml" class="more_btn" ontouchend="PTTSendClick('btn','morenews','更多新闻')">更多
+                    <span class="sp"></span>
+                </a>
+            </h2>
+            <div class="tab" id="tab_video">
+                <div class="hd">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="javascript:void(0);" ontouchend="PTTSendClick('btn','videobtnnew','最新视频')">最新</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" ontouchend="PTTSendClick('btn','videobtnqw','趣味')">趣味</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" ontouchend="PTTSendClick('btn','videobtnxs','新手')">新手</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" ontouchend="PTTSendClick('btn','videobtnjj','技巧')">技巧</a>
+                        </li>                         
+                    </ul>
+                </div>
+                <div class="bd"> 
+                    <div class="tab-panel">
+                        <ul class="clearfix">
+                                                            
+                        </ul>
+                    </div>
+                    <div class="tab-panel">
+                        <ul class="clearfix">
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-panel">
+                        <ul class="clearfix">
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-panel">
+                        <ul class="clearfix">
+                            
+                        </ul>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <!--视频中心 end -->
+        <!-- 主播中心 start-->
+        <section class="online">
+            <h2>
+                <i class="sp"></i>主播中心
+                <span>ANCHOR</span>
+            </h2>
+           <!-- <div class="top clearfix">
+
+            </div>-->
+            <div class="top clearfix">
+	            <a class="fl" href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','online1','主播1')">
+	                <img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo2_1.png" class="fl">
+	                <span class="name">小苍</span>
+	               <!-- <span>正在直播</span>-->
+	                <p>点击进入<i class="sp"></i></p>
+	            </a>
+	            <a class="fr" href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','online2','主播2')">
+	                <img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo2_2.png" class="fl">
+	                <span class="name">若风</span>
+	               <!-- <span>正在直播</span>-->
+	                <p>点击进入<i class="sp"></i></p>
+	            </a>
+	        </div>
+            <div class="swiper">
+                <div class="swiper-container swiper-container-online">
+	                <div class="swiper-wrapper">
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu1','主播1')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo1.png"><p>西卡笑笑</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu2','主播2')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo2.png"><p>若风</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu3','主播3')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo3.png"><p>小苍</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu4','主播4')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo4.png"><p>饼干</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu5','主播5')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo5.png"><p>董小飒</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu6','主播6')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo6.png"><p>大鹌鹑</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu7','主播7')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo7.png"><p>文森特</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu8','主播8')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo8.png"><p>刘杀鸡</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu9','主播9')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo9.png"><p>QQQ</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu10','主播10')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo10.png"><p>草莓</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu11','主播11')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo11.png"><p>寅子</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu12','主播12')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo12.png"><p>童话</p></a></div>
+	                    <div class="swiper-slide"><a href="//pg.qq.com/cp/a20180312live/index.html" ontouchend="PTTSendClick('btn','bozhu13','主播13')"><img src="//game.gtimg.cn/images/cjm/m/m201801/zhubo13.png"><p>告白</p></a></div>
+	                </div>
+	            </div>
+                <!-- Add Pagination -->
+                <div class="swiper-button-next sp"></div>
+                <div class="swiper-button-prev sp"></div>
+                <a href="//pg.qq.com/cp/a20180312live/index.html" class="more sp" ontouchend="PTTSendClick('btn','moreline','更多')"></a>
+            </div>
+
+        </section>
+        <!-- 主播中心 end-->
+                <!-- 刺激风云榜 start-->
+      <section class="ranking">
+            <h2>
+                <i class="sp"></i>刺激风云榜
+                <span>RANKING LIST</span>
+            </h2>
+            <div class="top clearfix">
+                    <p class="option">
+                        <span id="zk_plat_name">微信区</span>
+                        <span id="zk_ren_name">单人</span>
+                        <span id="zk_type_name">第三人称</span>
+                        <span>本周排行</span>
+                    </p>
+                    <p class="chose" id="btn-chose">
+                        <span>筛选</span>
+                        <span class="sprite icon-down"></span>
+                    </p>
+                <div class="chose-block clearfix" style="display: none">
+                    <select name="platid" id="platid">
+                        <option value="1" selected>微信区</option>
+                        <option value="2">QQ区</option>
+                    </select>
+                    <select name="renid" id="renid">
+                        <option value="1" selected>单人</option>
+                        <option value="2">双人</option>
+                        <option value="4">四人</option>
+                    </select>
+                    <select name="typeid" id="typeid">
+                        <option value="3" selected>第三人称</option>
+                        <option value="1">第一人称</option>
+                    </select>
+                    <a href="javascript:;" onclick="rank_lists();" class="btn-ok">确认</a>
+                </div>
+            </div>
+            <div class="main ranking-list c">
+                <div class="ranking-tab">
+                    <table>
+                        <thead>
+                        <tr>
+                            <td class="td_1">排名</td>
+                            <td class="td_2">积分</td>
+                            <td class="td_3">场数</td>
+                            <td class="td_4">吃鸡数 </td>
+                            <td class="td_5">前十数</td>
+                        </tr>
+                        </thead>
+                        <tbody id="zk_ranklists">
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 刺激风云榜 end-->
+        <section class="feature">
+            <h2>
+                <i class="sp"></i>游戏特色
+                <span>GAME FEATURES</span>
+            </h2>
+            <div class="swiper-container swiper-container-feature">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img3.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img4.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img5.jpg">
+                    </div>
+										<div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img6.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img7.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img8.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img9.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="//game.gtimg.cn/images/cjm/m/m201801/feature_img10.jpg">
+                    </div>
+                </div>
+                <div class="swiper-button-next sp"></div>
+                <div class="swiper-button-prev sp"></div>
+            </div>
+
+        </section>
+        
+        <footer class="footer">
+	<div class="footer_img"></div>
+	<div id="afooter"></div>
+</footer>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+        <!--<a class="pop_download"></a>-->
+    </div>
+    <div class="slide-munu" style="display:none;">
+            <div class="munu-down" style="text-align: center;">
+                <img src="//game.gtimg.cn/images/cjm/m/m201801/it-come-un.png" alt="" >
+                <img class="down-2" src="//game.gtimg.cn/images/cjm/m/m201801/it-come-little.jpg" alt="" />
+            </div>
+    </div>
+    <!-- 视频-->
+    <div class="video_box">
+        <div id="videoPlayer" class="video_player"></div>
+        <a href="javascript:;" id="btnVdoClose" class="video_close">x</a>
+    </div>
+    <div class="dia dia_wx" id="dia1">
+    <div class="code_con">
+        <img class="code_img" src="//game.gtimg.cn/images/cjm/m/m201801/qr_weixin.png">
+        <p>长按二维码<span>关注</span></p>
+        <p>《绝地求生·刺激战场》微信公众号</p>
+    </div>
+    <a class="close_btn" href="javascript:showDialog.hide()" title="关闭" ontouchend="PTTSendClick('btn','close','关闭');"></a>
+</div>
+<div class="dia dia_wx" id="dia2">
+    <div class="code_con">
+        <img class="code_img" src="//game.gtimg.cn/images/cjm/m/m201801/qr_quanzi.png">
+        <p>长按二维码<span>关注</span></p>
+        <p>《绝地求生·刺激战场》微信游戏圈</p>
+    </div>
+    <a class="close_btn" href="javascript:showDialog.hide()" title="关闭" ontouchend="PTTSendClick('btn','close','关闭');"></a>
+</div>
+<div class="dia dia_wx" id="dia3">
+    <div class="code_con">
+        <img class="code_img" src="//game.gtimg.cn/images/cjm/m/m201801/qr_buluo.png">
+        <p>长按二维码<span>关注</span></p>
+        <p>《绝地求生·刺激战场》手Q部落</p>
+    </div>
+    <a class="close_btn" href="javascript:showDialog.hide()" title="关闭" ontouchend="PTTSendClick('btn','close','关闭');"></a>
+</div>
+<div class="dia dia_wx" id="dia4">
+    <div class="code_con">
+        <img class="code_img" src="//game.gtimg.cn/images/cjm/m/m201801/qr_weibo.png">
+        <p>长按二维码<span>关注</span></p>
+        <p>《绝地求生·刺激战场》微博</p>
+    </div>
+    <a class="close_btn" href="javascript:showDialog.hide()" title="关闭" ontouchend="PTTSendClick('btn','close','关闭');"></a>
+</div>
+
+    <!-- 直播信息 -->
+    
+    <div class="marsk">
+        <div id="pop_box">
+            <div id="container"></div>
+            <a ontouchend="PTTSendClick('btn','close','关闭');" href="javascript:hideLiveVideo();" class="close">
+                <img class="fork" src="//game.gtimg.cn/images/cjm/m/m201801/liveclose.png" alt="fork">
+            </a>
+        </div>
+    </div>
+    <!--拍脸图-->
+    <div class="pailiantu">
+      <div class="pailiantu_info">
+        <div class="pailiantu_infoo">
+            <div class="pailiantu_pic"><!--<img src="ossweb-img/facephoto.png" alt="">--></div>
+            <a href="javascript:;" class="pailiantu_close">&times</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="it-come">
+		<div class="it-box">
+        <a href="//gp.qq.com?ADTAG=media.innerenter.pg.m" target="_blank">
+			<img src="//game.gtimg.cn/images/cjm/m/m201801/it-come-img.jpg" alt="他来了"></a>
+			<i class="icon-close"></i>
+		</div>
+
+	</div>
+<script src="//game.qq.com/time/qqadv/Info_new_16095.js"></script>
+<script src="//ossweb-img.qq.com/images/js/mobile_build/util/zepto.js"></script>
+<script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+<script src="//game.gtimg.cn/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/showDialog.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script src="//game.gtimg.cn/images/cjm/m/m201801/js/swiper.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/eas/eas.js?v=20151229"></script>
+<script src="//gicp.qq.com/wmp/v5/static/js/gicprp.js"></script>
+<script src="//game.gtimg.cn/images/cjm/m/m201801/js/comm.js?v=2"></script>
+<script src="//vm.gtimg.cn/tencentvideo/txvlive/2017/txvlive.js"></script>
+<script>
+    $('.icon-close').on('click', function () {
+			$('.it-come').addClass('active');
+			$('.munu-down').addClass('active');
+            $('.slide-munu').show()
+		})
+		$('.slide-munu').on('click', function () {
+            $('.slide-munu').hide()
+			$('.it-come').removeClass('active');
+			$('.munu-down').removeClass('active');
+		})
+    //弹窗函数
+    var pop_box = $("#pop_box");
+    function showLiveVideo() {
+        $(".marsk").show()
+        pop_box.css({
+            "display": "block"
+        })
+    }
+    //关闭弹窗函数
+    function hideLiveVideo() {
+        $(".marsk").hide()
+        pop_box.css({
+            "display": "none"
+        })
+        $("#container").html('');
+        //playlive.stopVideo();
+        playlive = null;
+    }
+
+    /*直播*/
+     /*var liveid = $("#Liveid").val();
+    if (liveid) {
+        // alert(liveid)
+        var config = {
+            containerId: 'container',
+            vid: liveid,
+            livepid: '',
+            width: '100%',
+            height: '100%',
+            autoplay: false,
+            onfullscreen: function (f) { if (!f) $("#videoPlayer", ".video_close").hide() },
+        };
+        player = new TxvLive(config);
+        showLiveVideo()
+    }
+*/
+
+    function createScrollBg() {
+        var _t = oDaTaNew16095; /*广告替换-替换成项目广告JSON里面的名称*/
+        var count = 0;
+        var countryObj;
+        var fn_a = [];
+        var fn_img = [];
+        var fn_title = [];
+        var nowA = "", nowB = "";
+        var i;
+        for (countryObj in _t) {
+            if (_t[countryObj] && _t[countryObj][5] == "20180208") { count++; } //计算广告数目
+            if (_t[countryObj][5] == "20180208") { /*广告替换-替换成项目广告位ID*/ 
+                fn_title.push(_t[countryObj][0]);
+                fn_a.push(_t[countryObj][1]);
+                fn_img.push(_t[countryObj][2]);
+            }
+        }
+
+        for (i = 0; i < count; i++) {
+            nowA += '<div class="swiper-slide">' +
+                '<a href="' + fn_a[i] + '" onclick=\'PTTSendClick("link","linkad' + i + '","' + decodeURIComponent(fn_title[i]) + '")\'>' +
+                '<img src="//ossweb-img.qq.com/upload/adw/' + fn_img[i] + '" alt="' + decodeURIComponent(decodeURIComponent(fn_title[i])) + '">' +
+                '</a>' +
+                '</div>';
+
+            //nowB += '<li class="sp ' + (i == 0 ? "current" : "") + '"><a href="javascript:;" ></a></li>';
+        }
+        $("#swiperIdxlbBox").html(nowA);
+        //新闻swiper
+        var swiper_news = new Swiper('.swiper-container-news', {
+            pagination: '.swiper-container-news .swiper-pagination',
+            paginationClickable: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false,
+            loop: true
+        });
+
+    }
+    createScrollBg()
+    //此段代码不能放到外链JS中，
+    var setSite = { //设置网站属性
+        siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType: "mindex", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+        pageName: "首页", //必填项:页面中文名
+        osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+        ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+        stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+    };
+    if (typeof (pgvMain) == 'function') pgvMain();//千万不能忘记！
+
+    //    分享代码
+    TGMobileShare({
+        shareTitle: document.title,
+        shareDesc: '',
+        shareImgUrl: 'https://game.gtimg.cn/images/cjm/m/m201801/share.jpg',
+        shareLink: '',
+        actName: 'm201801'
+    });
+    //    tabs
+    /* 设置参数调用 */
+    var tabs1 = new tabs("tab_news", "tab-panel");
+    var tabs2 = new tabs("tab_video", "tab-panel");
+ 
+
+    //游戏特色swiper
+    var swiper_feature = new Swiper('.swiper-container-feature', {
+        pagination: '.swiper-container-feature .swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        loop: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+
+    //    视频播放
+    $(".kv .video_btn").click(function () {
+        var vid = $(this).attr("data-vid");
+        initVideo(vid);
+    });
+
+    //视频播放
+    $(".tab-panel").on("click", ".video_btn", function () {
+        var vid = $(this).attr("data-vid");
+        initVideo(vid);
+    });
+
+
+  /*  $.ajax({
+        url: "//pg.qq.com/zlkdatasys/data_zlk_gwzbzx.json",
+        dataType: "json",
+        success: function (data) {
+            var item,item2;
+            var arr=[];
+            var zb=data.zb_db;
+            function count(){
+                for(var i in zb){
+                    if(zb[i].zd_5b==1){
+                        arr.push(i)
+                    }
+                }
+                return arr;
+            } 
+            var Tarr=count();
+            var L=Tarr.length;
+            if(L>=2){
+                item="<a class='fl' href='/m/m201801/live.html?key="+Tarr[L-2]+"' ontouchend="+"PTTSendClick('btn','online"+Tarr[L-2]+"','主播"+Tarr[L-2]+"')"+">" +
+                        "<img src='"+zb[Tarr[L-2]].tp_93+"' class='fl'>" +
+                        "<span class='name'>"+zb[Tarr[L-2]].ms_51+""+zb[Tarr[L-2]].mc_94+"</span><span>正在直播</span><p>点击进入<i class='sp'></i></p></a>"+
+                        "<a class='fl' href='/m/m201801/live.html?key="+Tarr[L-1]+"' ontouchend="+"PTTSendClick('btn','online"+Tarr[L-1]+"','主播"+Tarr[L-1]+"')"+">" +
+                        "<img src='"+zb[Tarr[L-1]].tp_93+"' class='fl'>" +
+                        "<span class='name'>"+zb[Tarr[L-1]].ms_51+""+zb[Tarr[L-1]].mc_94+"</span><span>正在直播</span><p>点击进入<i class='sp'></i></p></a>";
+                $(".online .top").append(item)
+            }else{
+                item="<a class='fl' href='/m/m201801/live.html?key="+Tarr[0]+"' ontouchend="+"PTTSendClick('btn','online"+Tarr[0]+"','主播"+Tarr[0]+"')"+">" +
+                        "<img src='"+zb[Tarr[0]].tp_93+"' class='fl'>" +
+                        "<span class='name'>"+zb[Tarr[0]].ms_51+""+zb[Tarr[0]].mc_94+"</span><span>正在直播</span><p>点击进入<i class='sp'></i></p></a>";
+                $(".online .top").append(item)
+            }
+
+
+
+            for(var i in zb){
+                var flag=i;
+                if(zb[flag].zd_5b!=1){
+                    item2="<div class='swiper-slide'><a href='/m/m201801/live.html?key="+i+"' ontouchend="+"'PTTSendClick('btn','bozhu"+flag+"','主播"+flag+"')"+">" +
+                            "<img src='"+zb[i].tp_93+"'><p>"+zb[i].mc_94+"</p></a></div>";
+                    $(".swiper-container-online .swiper-wrapper").append(item2);
+
+                    //    //主播中心
+                    var swiper_online = new Swiper('.swiper-container-online', {
+                        slidesPerView: 3,
+                        paginationClickable: true,
+                        nextButton: '.swiper .swiper-button-next',
+                        prevButton: '.swiper .swiper-button-prev'
+                    });
+                }
+
+            }
+        }
+    })
+*/
+ var swiper_online = new Swiper('.swiper-container-online', {
+    slidesPerView: 3,
+    paginationClickable: true,
+    nextButton: '.swiper .swiper-button-next',
+    prevButton: '.swiper .swiper-button-prev'
+});
+</script>
+<script>
+   $(document).ready(function(){
+     if(window.sessionStorage){
+       var flagg = sessionStorage['flagg']; 
+     if(flagg == 1){
+     $(".pailiantu").hide();
+     }
+     else{
+        sessionStorage.flagg = 1;
+        $.ajax({
+            type : "get",
+            async:false,
+            url : "//pg.qq.com/webplat/info/news_version3/33701/33702/36418/m20941/list_1.shtml",
+            dataType : "jsonp",
+            jsonpCallback:"jsonpCallfn",  
+            success : function(res){
+               var w_length=res.data.length;
+               console.log(w_length);
+                 if(w_length==1){
+                    $(".pailiantu").hide();
+                    // return;
+                 }
+                 else{
+                    $(".pailiantu").show();
+                      var w_src=res.data[1].infoimage;
+                      var w_href=res.data[1].RedirectAddress;
+                      var displayHtml = ''; 
+                      displayHtml += '<a href="'+w_href+'">'+
+                                  '<img src="'+w_src+'">'+
+                                  '</a>';
+        $('.pailiantu_pic').append(displayHtml);   
+                 }
+            }
+        });
+      };
+    }else{
+       $(".pailiantu").show();
+    };
+       $(".pailiantu_close").click(function(){
+        $(".pailiantu").hide();
+      });
+    });
+
+     //刺激风云榜 筛选
+     $("#btn-chose").click(function () {
+            $(".chose-block").toggle();
+    })
+    $(".btn-ok").click(function () {
+        $(".chose-block").toggle();
+    })
+    </script>
+    <script src="//pg.qq.com/m/m201801/rankList.js"></script>
+    <script>
+    var tot = 5;
+    var rank_platname = {1:'微信',2:'QQ'};
+    var rank_renname = {1:'单人',2:'双人',4:'四人'};
+    var rank_typename = {1:'第一人称',3:'第三人称'};
+    rank_lists();
+    function rank_lists(){
+        var platid = $("#platid").val();
+        var renid = $("#renid").val();
+        var typeid = $("#typeid").val();
+        $("#zk_plat_name").html(rank_platname[platid]);
+        $("#zk_ren_name").html(rank_renname[renid]);
+        $("#zk_type_name").html(rank_typename[typeid]);
+        
+        var list = new Array();
+        var lists = rankList[platid+"_"+renid+"_"+typeid];
+        $.each(lists['lists'],function(k,v){
+            list[v['rank']] = new Array();
+            list[v['rank']]['rank'] = v['rank'];
+            list[v['rank']]['name'] = lists['names'][k]['vrolename'];
+            list[v['rank']]['score'] = v['score'];
+            list[v['rank']]['total_num'] = v['total_num'];
+            list[v['rank']]['first_num'] = v['first_num'];
+            list[v['rank']]['topten_num'] = v['topten_num'];
+        });
+        var shtml = '';
+        if (list.length>0){
+            for (var i=1;i<=tot;i++){
+                shtml += '<tr><td><span class="sprite num-'+((list[i]['rank']>3)?4:list[i]['rank'])+'">'+list[i]['rank']+'</span></td>';
+                shtml += '<td class="td_2"><p><span class="name">'+list[i]['name']+'</span><span>'+list[i]['score']+'</span></p></td>';
+                shtml += '<td>'+list[i]['total_num']+'</td>';
+                shtml += '<td>'+list[i]['first_num']+'</td>';
+                shtml += '<td>'+list[i]['topten_num']+'</td></tr>';
+            }
+        }
+        $("#zk_ranklists").html(shtml);
+    }
+
+    var webglSupport = (function () {
+        try {
+            var canvas = document.createElement('canvas'); return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
+        } catch (e) {
+            return false;
+        }
+    })();
+    if (!webglSupport) {
+        PTTSendClick('browser', 'nosupport', '不支持webgl');
+    } else {
+        PTTSendClick('browser', 'support', '支持webgl');
+    }
+    </script>
+</body>
+</html>
